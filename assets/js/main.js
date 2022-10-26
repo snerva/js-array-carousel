@@ -52,7 +52,7 @@ nextBtn.addEventListener('click', function (){
     //tolgo classe e aumenta di uno 
     currentSlide.classList.remove('active');
     activeImg++
-    if (activeImg > slidesImgs.length){
+    if (activeImg === slidesImgs.length){
         activeImg = 0;
     }
     //seleziono successiva e applico classe active
